@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LicenseXML version="12.2.0.57">
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><LicenseXML version="14.0.0.40">
 
   <General>
-    <Customer ID="KPMG___Canada__Alliance_Partner__NFR"/>
+    <Customer ID="Eval_PAS_V9 and above"/>
     <VaultProperties DB="MySQL"/>
-    <LicenseKey key="6A8D022BC9210E042C3721CC44EB78CEAB3E7FC490952A5F5EF8105E60DA499801B6C9683836EA920C4DF7EBA18D58C54370E99FAA3274073B92271ACB4C0FD24728CBDFC6B775734CEF0A32D9BBC7282AC2F4B8B3036E6F07EB6B0924BEB347E051818571CD4588244AC05625A68FF21C8989FD2AD4A52990F64B3D899FC4591C7748FB8D24CEC57CF3D8726CF7EC303718FBCFAFF37E7F9C4EBCD21B9AAD14BCBCA2CC946FC4418545244E6558DD2FFEEBA405AC1F0839A857E3F47F94A33A454D966FAB23486DC92E1CEF4E9CEFD0318E1735FFAE1AD6C84A36951AD5F34752B4783995C6D4A2099422089C42FC838419638A7D6B8AC5140AE11B9EB34882"/>
+    <LicenseKey key="3C8E0711C89389DAF908D2111E45557BFEC108AFF1ACE0B9978CBDEE273B7317C1D47FCD4577611A8B3A9E958C5F48099EB0AF6F081A4FB2731546AB00D03673AE55E97819B84F121A1FF2A7078D85C4A07B3DD133E3D67F10E69802D958605DB15CBF3FABD115B150CCBBD71C651AC36FF44B7189FCA915615B5D27F31E22873DC5C6F9E3DBE592A27AA15DD787F96088CFAE8DC009D6B38D3E288856BCB25E49F9D8736539C7F6765079008DD20E1CB631A13FE72B9958F470FEBA7E6EA6A5BE1D0BE3135B174F0F3EF836D440262C45AC97061A12D148DB70858EE48F69B2EABFA23B5CE603C70E3E37508D2F4230ECA0007E810B7FF2F0E9086645E7CEF8"/>
   </General>
 
   <Limitations>
-    <LicenseLimitations ExpirationDate="2024-12-31" PSMConcurrentSessions="15" PSMForServersCount="15" SSHKeysTargetSystems="50"/>
+    <LicenseLimitations ExpirationDate="2025-01-31" PSMConcurrentSessions="15" SSHKeysTargetSystems="50"/>
     <DR>Yes</DR>
     <HACluster>Yes</HACluster>
   </Limitations>
@@ -27,7 +27,7 @@
       <AllowedApplication App="WINCLIENT"/>
       <AllowedApplication App="XAPI"/>
     </UserType>
-    <UserType Description="Enterprise Password Vault Lite End User" ID="86" LicensedUsers="10" Name="EPVUserLite">
+    <UserType Description="Enterprise Password Vault Lite End User" ID="86" LicensedUsers="15" Name="EPVUserLite">
       <AllowedApplication App="EVD"/>
       <AllowedApplication App="PACLI"/>
       <AllowedApplication App="PIMSu"/>
@@ -36,130 +36,46 @@
       <AllowedApplication App="PVWA"/>
       <AllowedApplication App="WINCLIENT"/>
     </UserType>
-    <UserType Description="Basic User" ID="87" LicensedUsers="10" Name="BasicUser">
+    <UserType Description="Basic User" ID="87" LicensedUsers="15" Name="BasicUser">
       <AllowedApplication App="PVWA"/>
     </UserType>
-    <UserType Description="Application Account" ID="35" LicensedUsers="250" Name="AIMAccount" Options="4">
+    <UserType Description="Application Account" ID="35" LicensedUsers="20" Name="AIMAccount" Options="4">
       <AllowedApplication App="AIMApp"/>
       <AllowedApplication App="PAPI"/>
     </UserType>
     <UserType Description="Central Policy Manager" ID="31" LicensedUsers="2" Name="CPM" Options="4">
       <AllowedApplication App="CPM"/>
     </UserType>
-    <UserType Description="Password Vault Web Access" ID="32" LicensedUsers="5" Multiplicity="2" Name="PVWA" Options="4">
+    <UserType Description="Password Vault Web Access" ID="32" LicensedUsers="2" Multiplicity="2" Name="PVWA" Options="4">
       <AllowedApplication App="PVWAApp"/>
     </UserType>
-    <UserType Description="Privileged Session Manager" ID="36" LicensedUsers="5" Multiplicity="2" Name="PSM" Options="4">
+    <UserType Description="Privileged Session Manager" ID="36" LicensedUsers="2" Multiplicity="2" Name="PSM" Options="4">
       <AllowedApplication App="PSMApp"/>
     </UserType>
-    <UserType Description="Application Password Provider" ID="33" LicensedUsers="25" Name="AppProvider" Options="4">
+    <UserType Description="Application Password Provider" ID="33" LicensedUsers="20" Name="AppProvider" Options="4">
       <AllowedApplication App="AppPrv"/>
     </UserType>
-    <UserType Description="External User" ID="591" LicensedUsers="10" Name="ExtUser">
+    <UserType Description="External User" ID="591" LicensedUsers="15" Name="ExtUser">
       <AllowedApplication App="PIMSu"/>
       <AllowedApplication App="PSM"/>
       <AllowedApplication App="PSMP"/>
       <AllowedApplication App="PVWA"/>
     </UserType>
-    <UserType Description="Business User" ID="590" LicensedUsers="10" Name="BizUser">
+    <UserType Description="Business User" ID="590" LicensedUsers="15" Name="BizUser">
       <AllowedApplication App="PVWA"/>
     </UserType>
-    <UserType Description="DR User" ID="504" LicensedUsers="10" Name="DRUser">
+    <UserType Description="DR User" ID="504" LicensedUsers="1" Name="DRUser">
       <AllowedApplication App="DR"/>
     </UserType>
     <UserType Description="On-demand Privileges Manager Provider" ID="37" LicensedUsers="5" Name="OPMProvider" Options="4">
       <AllowedApplication App="AppPrv"/>
     </UserType>
     <UserType Description="CCP Endpoints" ID="99" LicensedUsers="10" Name="CCPEndpoints"/>
-    <UserType Description="Privileged Session Manager User" ID="43" LicensedUsers="10" Name="PSMUser">
-      <AllowedApplication App="PSM"/>
-      <AllowedApplication App="PSMApp"/>
-      <AllowedApplication App="PSMP"/>
-      <AllowedApplication App="PVWA"/>
-    </UserType>
-    <UserType Description="Privileged Session Manager SSH Proxy" ID="70" LicensedUsers="5" Multiplicity="2" Name="PSMPServer" Options="4">
+    <UserType Description="Privileged Session Manager SSH Proxy" ID="70" LicensedUsers="2" Multiplicity="2" Name="PSMPServer" Options="4">
       <AllowedApplication App="PSMPApp"/>
-    </UserType>
-    <UserType Description="Human IBV User (Business User, IT User, Endpoint User)" ID="56" LicensedUsers="10" Name="IBVUser">
-      <AllowedApplication App="CIFS"/>
-      <AllowedApplication App="DC"/>
-      <AllowedApplication App="EMAIL"/>
-      <AllowedApplication App="FEWA"/>
-      <AllowedApplication App="GUI"/>
-      <AllowedApplication App="IBVSDK"/>
-      <AllowedApplication App="SEGEMail"/>
-      <AllowedApplication App="SFEWebUI"/>
-      <AllowedApplication App="WINCLIENT"/>
-    </UserType>
-    <UserType Description="File Transfer Automation User" ID="55" LicensedUsers="10" Name="AutoIBVUser" Options="4">
-      <AllowedApplication App="DCA"/>
-      <AllowedApplication App="EVD"/>
-      <AllowedApplication App="FTP"/>
-      <AllowedApplication App="HTTPGW"/>
-      <AllowedApplication App="IBVSDK"/>
-      <AllowedApplication App="NAPI"/>
-      <AllowedApplication App="PACLI"/>
-      <AllowedApplication App="XAPI"/>
-    </UserType>
-    <UserType Description="CIFS Connector" ID="51" LicensedUsers="4" Name="CIFS" Options="4">
-      <AllowedApplication App="CIFS"/>
-      <AllowedApplication App="CIFSApp"/>
-    </UserType>
-    <UserType Description="FTP Connector" ID="52" LicensedUsers="2" Name="FTP" Options="4">
-      <AllowedApplication App="FTP"/>
-      <AllowedApplication App="FTPApp"/>
-    </UserType>
-    <UserType Description="Secure File Exchange" ID="54" LicensedUsers="4" Name="SFE" Options="4">
-      <AllowedApplication App="SFEAPP"/>
-    </UserType>
-    <UserType Description="Backend DCA" ID="58" LicensedUsers="10" Name="DCAUser" Options="4">
-      <AllowedApplication App="DCA"/>
-    </UserType>
-    <UserType Description="Single DCA Instance" ID="60" LicensedUsers="2" Name="DCAInstance" Options="4">
-      <AllowedApplication App="DCAAPP"/>
-    </UserType>
-    <UserType Description="Secure End-Point Client User" ID="65" LicensedUsers="10" Name="SecureEpClientUser">
-      <AllowedApplication App="CIFS"/>
-      <AllowedApplication App="DC"/>
-      <AllowedApplication App="DCA"/>
-      <AllowedApplication App="EMAIL"/>
-      <AllowedApplication App="FEWA"/>
-      <AllowedApplication App="FTP"/>
-      <AllowedApplication App="GUI"/>
-      <AllowedApplication App="HTTPGW"/>
-      <AllowedApplication App="IBVSDK"/>
-      <AllowedApplication App="NAPI"/>
-      <AllowedApplication App="PACLI"/>
-      <AllowedApplication App="SEGEMail"/>
-      <AllowedApplication App="SFEWebUI"/>
-      <AllowedApplication App="WINCLIENT"/>
-      <AllowedApplication App="XAPI"/>
-    </UserType>
-    <UserType Description="Clientless User Licenses" ID="66" LicensedUsers="10" Name="ClientlessUser">
-      <AllowedApplication App="CIFS"/>
-      <AllowedApplication App="FEWA"/>
-      <AllowedApplication App="FTP"/>
-      <AllowedApplication App="HTTPGW"/>
-      <AllowedApplication App="IBVSDK"/>
-      <AllowedApplication App="SFEWebUI"/>
-    </UserType>
-    <UserType Description="Ad-hoc Recipient" ID="67" LicensedUsers="50" Name="AdHocRecipient">
-      <AllowedApplication App="SFEWebUI"/>
-    </UserType>
-    <UserType Description="SecureEmail User" ID="68" LicensedUsers="10" Name="SecureEmailUser">
-      <AllowedApplication App="EMAIL"/>
-      <AllowedApplication App="IBVSDK"/>
-      <AllowedApplication App="SEGEMail"/>
-      <AllowedApplication App="SFEWebUI"/>
-    </UserType>
-    <UserType Description="Secure Email Gateway" ID="69" LicensedUsers="2" Name="SEG" Options="4">
-      <AllowedApplication App="SEGApp"/>
     </UserType>
     <UserType Description="All ClientIds" ID="501" LicensedConcurrentUsers="30" LicensedUsers="30" Name="AllUsers">
       <AllowedApplication App="All"/>
-    </UserType>
-    <UserType Description="DR User" ID="502" LicensedConcurrentUsers="1" LicensedUsers="1" Name="DR_USER">
-      <AllowedApplication App="DR"/>
     </UserType>
   </UserTypes>
 
